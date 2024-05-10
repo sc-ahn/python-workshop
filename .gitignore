@@ -1,2 +1,4 @@
 **/__pycache__
 .vscode
+measure_time*.csv
+measure_time*.png
