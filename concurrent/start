@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "work,time(ns)" >> measure_time.csv
+
+echo "running single ..."
+poetry run python single.py
+
+echo "running with threading ..."
+poetry run python multi_thread.py
+
+echo "running with multi process ..."
+poetry run python multi_process.py
+
+echo "running with asyncio ..."
+poetry run python async.py
+echo "running with subinterpreter ..."
+poetry run python subinterpreter.py
+echo "running with subinterpreter + multi process"
+poetry run python subinterpreter_with_multi_proc.py
+echo "running with subinterpreter + threading"
+poetry run python subinterpreter_with_thread.py
+
+echo "done"

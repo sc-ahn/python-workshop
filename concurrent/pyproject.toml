@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "concurrent"
+version = "0.1.0"
+description = ""
+authors = ["안성철 <scahn@huray.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "^2.7.1"
+orjson = "^3.10.3"
+matplotlib = "^3.8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
