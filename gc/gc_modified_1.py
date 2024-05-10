@@ -8,6 +8,7 @@ import gc
 import numpy as np
 import torch
 
+# https://github.com/python/cpython/blob/46c808172fd3148e3397234b23674bf70734fb55/Modules/gcmodule.c#L417
 gc.freeze()
 
 class DummyClass:
