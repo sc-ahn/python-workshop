@@ -62,7 +62,7 @@ shell-use-pydantic-v2:
 		python-workshop-use-pydantic-v2 \
 		/bin/bash
 
-build-json-vs-orjson:
+build-json-vs-orjson: ## -> make shell-json-vs-orjson
 	docker build -t python-workshop-json-vs-orjson -f json-vs-orjson.Dockerfile .
 
 shell-json-vs-orjson:
