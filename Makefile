@@ -33,3 +33,12 @@ shell-cc-py312:
 		-v ./concurrent:/d3fau1t/workshop \
 		python-workshop-concurrent-py312 \
 		/bin/bash
+
+build-list-vs-array:
+	docker build -t python-workshop-list-vs-array -f list-vs-array.Dockerfile .
+
+shell-list-vs-array:
+	docker run -it --rm \
+		-v ./list_vs_array:/d3fau1t/workshop/list_vs_array \
+		python-workshop-list-vs-array \
+		/bin/bash
