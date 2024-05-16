@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "v1"
+version = "0.1.0"
+description = ""
+authors = ["안성철 <scahn@huray.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = {url = "https://files.pythonhosted.org/packages/6f/3a/1a057845b787469aa8c4ff2c126d5110d616223c82e74561b8ae56b46ec7/pydantic-1.10.15.tar.gz"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

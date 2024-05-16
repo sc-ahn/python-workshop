@@ -1,5 +1,15 @@
 # list VS array
 
+## script usage
+
+```bash
+pwd # list_vs_array
+poetry run python summation.py
+poetry run python marshalling.py
+poetry run python pickling.py
+poetry run python pickling_object.py
+```
+
 ## Python built-in list
 
 [Python의 builtin-list 객체 구조체](https://github.com/python/cpython/blob/46c808172fd3148e3397234b23674bf70734fb55/Include/cpython/listobject.h#L8)
