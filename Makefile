@@ -61,3 +61,13 @@ shell-use-pydantic-v2:
 	docker run -it --rm \
 		python-workshop-use-pydantic-v2 \
 		/bin/bash
+
+build-json-vs-orjson:
+	docker build -t python-workshop-json-vs-orjson -f json-vs-orjson.Dockerfile .
+
+shell-json-vs-orjson:
+	docker run -it --rm \
+		-v ./json-vs-orjson:/d3fau1t/workshop \
+		-p 12800:12800 \
+		python-workshop-json-vs-orjson \
+		/bin/bash
