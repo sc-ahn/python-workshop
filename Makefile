@@ -42,7 +42,7 @@ build-list-vs-array: ## -> make shell-list-vs-array
 
 shell-list-vs-array:
 	docker run -it --rm \
-		-v ./list_vs_array:/d3fau1t/workshop/list_vs_array \
+		-v ./list-vs-array:/d3fau1t/workshop/list-vs-array \
 		python-workshop-list-vs-array \
 		/bin/bash
 

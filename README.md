@@ -8,8 +8,9 @@ Python을 사용하면서 기록하고 싶었던 내용을 dockerizing 하여 �
 | --- | --- |
 | [concurrent](./concurrent) | 병렬프로그래밍 퍼포먼스를 비교하기위해 작성 |
 | [gc](./gc) | GC 오버헤드 설명 및 튜닝관련 내용 |
-| [list vs. array](./list_vs_array) | built-in list와 array 그리고 numpy의 ndarray 성능 비교 |
-| [pydantic v1 vs. v2] | pydantic v1과 v2의 성능 비교 |
+| [list vs. array](./list-vs-array) | built-in list와 array 그리고 numpy의 ndarray 성능 비교 |
+| [pydantic v1 vs. v2](./use-pydantic) | pydantic v1과 v2의 성능 비교 |
+| [json-vs-orjson](./json-vs-orjson) | json과 orjson의 성능 비교 |
 
 ## 실행
 

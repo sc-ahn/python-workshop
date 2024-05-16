@@ -3,7 +3,7 @@
 ## script usage
 
 ```bash
-pwd # list_vs_array
+pwd # list-vs-array
 poetry run python summation.py
 poetry run python marshalling.py
 poetry run python pickling.py
