@@ -30,4 +30,5 @@ Targets:
   build-list-vs-array   -> make shell-list-vs-array
   build-use-pydantic-v1  -> make shell-use-pydantic-v1
   build-use-pydantic-v2  -> make shell-use-pydantic-v2
+  build-json-vs-orjson  -> make shell-json-vs-orjson
 ```
